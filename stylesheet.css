@@ -14,7 +14,22 @@ h1{
   font-family: 'ostrich_sansblack';
   font-size: 100px;
   margin-top: 0px;
+  text-decoration: none;
+
+}
+
+#kcs{
   color: yellow;
+  text-decoration: none;
+  cursor: pointer;
+}
+#kcs:hover{
+  color:black;
+  cursor: pointer;
+  text-decoration: none;
+}
+#kcslink{
+    box-shadow: none;
 }
 .container{
   margin-top: -40px;
