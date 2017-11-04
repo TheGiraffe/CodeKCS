@@ -18,19 +18,18 @@ h1{
 
 }
 
-#kcs{
+#kcslink{
   color: yellow;
   text-decoration: none;
   cursor: pointer;
+  width: 60%;
 }
-#kcs:hover{
+#kcslink:hover{
   color:black;
   cursor: pointer;
   text-decoration: none;
 }
-#kcslink{
-    box-shadow: none;
-}
+
 .container{
   margin-top: -40px;
   width: 45%;
