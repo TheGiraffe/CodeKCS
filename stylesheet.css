@@ -15,14 +15,15 @@ h1{
   font-size: 100px;
   margin-top: 0px;
   text-decoration: none;
-
+color: yellow;
+width: 60%;
 }
 
 #kcslink{
   color: yellow;
   text-decoration: none;
   cursor: pointer;
-  width: 60%;
+
 }
 #kcslink:hover{
   color:black;
