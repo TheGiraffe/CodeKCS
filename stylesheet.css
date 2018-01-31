@@ -48,7 +48,7 @@ h1:hover{
   border-radius: 5px;
 }
 .navbar{
-  background-color: yellow;
+  background-color: #a6f441;
   padding:2px;
   padding-bottom: 5px;
   width: 100%;
@@ -81,7 +81,7 @@ h2{
   padding: 2px;
   padding-top: 10px;
   font-family: 'ostrich_sansblack';
-  color: yellow;
+  color: #a6f441;
   font-size: 400%;
   background-color: black;
 }
