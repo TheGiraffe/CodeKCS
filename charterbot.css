@@ -1,0 +1,104 @@
+@import url(fonts/airstream/stylesheet.css);
+@import url(fonts/ostrichsans/stylesheet.css);
+@import url(fonts/printclearly/stylesheet.css);
+body{
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'print_clearlyregular';
+  font-size: 25px;
+}
+h1{
+  font-family: 'ostrich_sansblack';
+  font-size: 100px;
+  margin-top: 0px;
+  text-decoration: none;
+color: yellow;
+width: 60%;
+}
+
+#kcslink{
+  color: yellow;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+#kcslink:hover{
+  color:black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container{
+  margin-top: -40px;
+  width: 45%;
+}
+h2{
+font-family: 'airstreamregular';
+font-size: 50px;
+margin-top: 8%;
+margin-bottom: 20px;
+}
+.cats {
+  background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    color: black;
+  font-family: 'ostrich_sansblack';
+    margin: 10px;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 15%;
+    bottom: 50%;
+}
+.cats span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.cats span:after {
+  content:":)";
+  color: yellow;
+  font-size: 30px;
+  font-family: 'ostrich_sansblack';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.cats:hover{
+  background-color: black;
+}
+.cats:hover span {
+  padding-right: 20px;
+  color: yellow;
+}
+
+.cats:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#rickroll{
+bottom: 0;
+margin: 10px;
+position: fixed;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+font-family: 'ostrich_sansblack';
+cursor: pointer;
+}
+#rickroll:hover{
+color: yellow;
+cursor: pointer;
+}

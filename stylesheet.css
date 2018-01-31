@@ -1,104 +1,87 @@
 @import url(fonts/airstream/stylesheet.css);
 @import url(fonts/ostrichsans/stylesheet.css);
 @import url(fonts/printclearly/stylesheet.css);
+@import url(fonts/printbold/stylesheet.css);
 body{
   background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  font-family: 'print_clearlyregular';
-  font-size: 25px;
+  font-family: 'print_boldregular';
+  font-size: 20px;
 }
+html,body{
+  margin:0;
+  padding:0;
+}
+.navbutton{
+float: right;
+border: none;
+background-color: transparent;
+color: black;
+margin: 2px;
+font-size: 19px;
+padding:7px;
+font-family: 'ostrich_sansblack';
+}
+.navbutton:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
 h1{
-  font-family: 'ostrich_sansblack';
-  font-size: 100px;
+  font-family: 'airstreamregular';
+  color: black;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 5px;
   margin-top: 0px;
-  text-decoration: none;
-color: yellow;
-width: 60%;
+  margin-bottom: 0px;
 }
-
-#kcslink{
-  color: yellow;
-  text-decoration: none;
+h1:hover{
+  color: white;
   cursor: pointer;
+  background-color: black;
+  padding:10px;
+  border-radius: 5px;
+}
+.navbar{
+  background-color: yellow;
+  padding:2px;
+  padding-bottom: 5px;
+  width: 100%;
+  display: block;
+}
+.navcontents{
+  margin-top:5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.classcontainer{
+  width: 90%;
+  min-height: 500px;
+  margin: 30px;
+  display: inline-block;
+  padding:5px;
+/*  background-color:green;*/
 
 }
-#kcslink:hover{
-  color:black;
-  cursor: pointer;
-  text-decoration: none;
+.classcontent{
+  background-color: rgba(255,255,255,0.25);
+  width: 80%;
+  min-height: 500px;
 }
-
-.container{
-  margin-top: -40px;
-  width: 45%;
+.lessoncontent{
+  padding: 10px;
 }
 h2{
-font-family: 'airstreamregular';
-font-size: 50px;
-margin-top: 8%;
-margin-bottom: 20px;
-}
-.cats {
-  background-color: yellow;
-    border: none;
-    border-radius: 5px;
-    color: black;
+  margin:0px;
+  padding: 2px;
+  padding-top: 10px;
   font-family: 'ostrich_sansblack';
-    margin: 10px;
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    cursor: pointer;
-    position: relative;
-    top: 15%;
-    bottom: 50%;
-}
-.cats span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.cats span:after {
-  content:":)";
   color: yellow;
-  font-size: 30px;
-  font-family: 'ostrich_sansblack';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.cats:hover{
+  font-size: 400%;
   background-color: black;
-}
-.cats:hover span {
-  padding-right: 20px;
-  color: yellow;
-}
-
-.cats:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-#rickroll{
-bottom: 0;
-margin: 10px;
-position: fixed;
-  font-size: 14px;
-  text-decoration: none;
-  color: white;
-font-family: 'ostrich_sansblack';
-cursor: pointer;
-}
-#rickroll:hover{
-color: yellow;
-cursor: pointer;
 }
