@@ -96,6 +96,7 @@ h2{
 }
 .slider{
   display: block;
+  overflow: visible;
 width: 6em;
 height: 6em;
 margin:10px;
@@ -114,6 +115,7 @@ stroke:#a6f441;
 }
 .slider2{
   display: block;
+  overflow: visible;
 height: 6em;
 width: 6em;
 margin:10px;
