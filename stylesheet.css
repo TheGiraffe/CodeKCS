@@ -31,7 +31,7 @@ color: white;
 cursor: pointer;
 }
 
-h1{
+#codekcstitle{
   font-family: 'airstreamregular';
   color: black;
   font-size: 30px;
@@ -40,12 +40,13 @@ h1{
   margin-top: 0px;
   margin-bottom: 0px;
 }
-h1:hover{
+#codekcstitle:hover{
   color: white;
   cursor: pointer;
-  background-color: black;
-  padding:10px;
-  border-radius: 5px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+
 }
 .navbar{
   background-color: #a6f441;
@@ -63,18 +64,26 @@ h1:hover{
   width: 90%;
   min-height: 500px;
   margin: 30px;
-  display: inline-block;
+  display: grid;
+  grid-auto-columns: min-content;
+  grid-auto-columns: max-content;
+  grid-auto-columns: auto;
+grid-auto-rows: minmax(100px, auto);
   padding:5px;
 /*  background-color:green;*/
 
 }
 .classcontent{
   background-color: rgba(255,255,255,0.25);
-  width: 80%;
-  min-height: 500px;
+/*  min-height: 500px;*/
+/*  display:inline-block;*/
+  grid-column: 2;
+  grid-row: 1 / 4;
 }
 .lessoncontent{
   padding: 10px;
+  font-size: 22px;
+  color:white;
 }
 h2{
   margin:0px;
@@ -84,4 +93,66 @@ h2{
   color: #a6f441;
   font-size: 400%;
   background-color: black;
+}
+.slider{
+  display: block;
+width: 115px;
+height: 115px;
+margin:10px;
+  grid-column: 1;
+  grid-row: 2;
+}
+.slider:hover{
+    cursor: pointer;
+}
+.slider:hover circle{
+  fill:black;
+  stroke:white;
+}
+.slider:hover line {
+stroke:#a6f441;
+}
+.slider2{
+  display: block;
+height: 115px;
+width: 115px;
+margin:10px;
+  grid-column: 3;
+  grid-row: 2;
+}
+.slider2:hover{
+    cursor: pointer;
+}
+.slider2:hover circle{
+  fill:black;
+  stroke:white;
+  cursor: pointer;
+}
+.slider2:hover line {
+stroke:#a6f441;
+}
+#hiddennav{
+  float: left;
+  display: inline-block;
+  margin-top: -30px;
+  background-color:  rgba(255,255,255,0.25);
+  width:60px;
+  height: 600px;
+}
+#coursecontents{
+  list-style-type: none;
+  padding: 4px;
+}
+#coursecontents li{
+  padding:4px;
+  /*padding-top: 6px;
+  padding-bottom: 6px;*/
+  background-color: black;
+  color: white;
+  margin: 5px;
+}
+#coursecontents li:hover{
+  background-color:#a6f441;
+  color: black;
+  cursor: pointer;
 }
