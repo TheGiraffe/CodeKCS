@@ -96,8 +96,8 @@ h2{
 }
 .slider{
   display: block;
-width: 115px;
-height: 115px;
+width: 6em;
+height: 6em;
 margin:10px;
   grid-column: 1;
   grid-row: 2;
@@ -114,8 +114,8 @@ stroke:#a6f441;
 }
 .slider2{
   display: block;
-height: 115px;
-width: 115px;
+height: 6em;
+width: 6em;
 margin:10px;
   grid-column: 3;
   grid-row: 2;
