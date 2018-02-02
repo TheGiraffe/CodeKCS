@@ -97,6 +97,7 @@ h2{
 .slider{
   display: block;
   overflow: visible;
+  box-shadow : 0px -0px 10000px transparent; /*trick for chrome*/
 width: 6em;
 height: 6em;
 margin:10px;
@@ -116,6 +117,7 @@ stroke:#a6f441;
 .slider2{
   display: block;
   overflow: visible;
+  box-shadow : 0px -0px 10000px transparent; /*trick for chrome*/
 height: 6em;
 width: 6em;
 margin:10px;
