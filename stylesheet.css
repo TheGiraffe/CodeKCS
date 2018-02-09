@@ -227,8 +227,6 @@ h2{
   display: block;
   overflow: visible;
   box-shadow : 0px -0px 10000px transparent; /*trick for chrome*/
-width: 6em;
-height: 6em;
 margin:10px;
 
 }
@@ -240,18 +238,16 @@ margin:10px;
     cursor: pointer;
 }
 .slider:hover circle{
-  fill:black;
+fill:rgba(0,0,0,0.5);
   stroke:white;
 }
-.slider:hover line {
+.slider:hover path {
 stroke:#a6f441;
 }
 .slider2{
   display: block;
   overflow: visible;
   box-shadow : 0px -0px 10000px transparent; /*trick for chrome*/
-height: 6em;
-width: 6em;
 margin:10px;
 
 }
@@ -263,11 +259,11 @@ margin:10px;
     cursor: pointer;
 }
 .slider2:hover circle{
-  fill:black;
+  fill:rgba(0,0,0,0.5);
   stroke:white;
   cursor: pointer;
 }
-.slider2:hover line {
+.slider2:hover path {
 stroke:#a6f441;
 }
 #hiddennav{

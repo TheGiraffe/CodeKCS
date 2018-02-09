@@ -36,6 +36,19 @@ $('#syntaxhelp').on('click',function(){
 });
 });
 
+$(function(){
+  $('.hiddenoptions').hide()
+  $('#projectsbutton').on('click',function(){
+  if($('.hiddenoptions').is(":visible")){
+  $('.hiddenoptions').hide()
+  }else{
+  $('.hiddenoptions').show()
+
+  }
+
+  });
+});
+
 //Previous and Next arrows functionality
 var welcometext=("Welcome to CodeKCS. Over the course of these four weeks, you will learn the basics of code from a creative perspective. We don't expect you to become a code wizard in four weeks - we don't even");
 $(function(){
