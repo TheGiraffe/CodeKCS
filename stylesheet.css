@@ -15,6 +15,116 @@ html,body{
   margin:0;
   padding:0;
 }
+.hiddenoptions{
+  background-color: black;
+  width: 60%;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-gap: 5px;
+}
+.imgbox{
+
+}
+#project1{
+  grid-row: 2;
+  grid-column: 1;
+  background-image: url('images/css.png');
+  background-size: cover;
+  background-position: center;
+}
+#project1:hover{
+  background-blend-mode: lighten;
+  background-color: rgba(255,255,255,0.25);
+}
+#project2{
+  grid-row: 2;
+  grid-column: 2;
+  background-image: url('images/css.png');
+  background-size: cover;
+  background-position: center;
+}
+#project3{
+  grid-row: 2;
+  grid-column: 3;
+  background-image: url('images/css.png');
+  background-size: cover;
+  background-position: center;
+}
+#project4{
+  grid-row: 2;
+  grid-column: 4;
+  background-image: url('images/css.png');
+  background-size: cover;
+  background-position: center;
+}
+#project5{
+  grid-row: 2;
+  grid-column: 5;
+  background-image: url('images/css.png');
+  background-size: cover;
+  background-position: center;
+}
+#project6{
+  grid-row: 2;
+  grid-column: 6;
+  background-image: url('images/css.png');
+  background-size: cover;
+  background-position: center;
+}
+#horizontaltitle{
+  font-size: 30px;
+  font-family: 'airstreamregular';
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.drowpdown{
+  margin:none;
+  padding:none;
+float: right;
+}
+.drowpdowncontents{
+  padding: 2px;
+  background-color: rgba(255,255,255,0.25);
+  width: 100%;
+  display: inline-block;
+}
+.dropdownbutton{
+  border: none;
+  background-color: transparent;
+font-family: 'airstreamregular';
+  font-size: 20px;
+  color: #a6f441;
+  width: 100%;
+  padding: 2px;
+}
+.dropdownbutton:hover{
+  background-color: #a6f441;
+  color: black;
+  cursor: pointer;
+}
+.helptext{
+  color: white;
+  margin:5px;
+  width: 60%;
+  float: right;
+  margin:20px;
+}
+.helptexttitle{
+  font-family: 'airstreamregular';
+  font-size: 50px;
+}
+.helptextdesc{
+    font-family: 'print_boldregular';
+    font-size: 50px;
+}
+.lesscomplicatedfont{
+  font-family: 'print_boldregular';
+}
 .navbutton{
 float: right;
 border: none;
@@ -23,6 +133,7 @@ color: black;
 margin: 2px;
 font-size: 19px;
 padding:7px;
+display: inline-block;
 font-family: 'ostrich_sansblack';
 }
 .navbutton:hover{
@@ -144,7 +255,6 @@ stroke:#a6f441;
 #hiddennav{
   float: left;
   display: inline-block;
-  margin-top: -30px;
   background-color:  rgba(255,255,255,0.25);
   width:60px;
   height: 600px;
