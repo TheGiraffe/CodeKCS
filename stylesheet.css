@@ -32,9 +32,12 @@ html,body{
 #project1{
   grid-row: 2;
   grid-column: 1;
-  background-image: url('images/css.png');
+  background-image: url('images/nalukai.png');
   background-size: cover;
   background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
 }
 #project1:hover{
   background-blend-mode: lighten;
@@ -43,37 +46,52 @@ html,body{
 #project2{
   grid-row: 2;
   grid-column: 2;
-  background-image: url('images/css.png');
+  background-image: url('images/stars.png');
   background-size: cover;
   background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
 }
 #project3{
   grid-row: 2;
   grid-column: 3;
-  background-image: url('images/css.png');
+  background-image: url('images/nalukai.png');
   background-size: cover;
   background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
 }
 #project4{
   grid-row: 2;
   grid-column: 4;
-  background-image: url('images/css.png');
+  background-image: url('images/stars.png');
   background-size: cover;
   background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
 }
 #project5{
   grid-row: 2;
   grid-column: 5;
-  background-image: url('images/css.png');
+  background-image: url('images/nalukai.png');
   background-size: cover;
   background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
 }
 #project6{
   grid-row: 2;
   grid-column: 6;
-  background-image: url('images/css.png');
+  background-image: url('images/stars.png');
   background-size: cover;
   background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
 }
 #horizontaltitle{
   font-size: 30px;
