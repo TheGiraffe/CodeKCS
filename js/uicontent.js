@@ -56,10 +56,15 @@ $(function(){
 
 //Previous and Next arrows functionality
 var welcometext=("CodeKCS is a project-based curriculum for learning code. The idea here is that students often learn best through doing things themselves and by working on projects that mean something to them. There is also a mentorship aspect of this course. The idea of the self-taught programmer is inherently flawed, because mentors are a valuable part of the process of learning code. Mentors can prevent students from making inefficient mistakes and can pass along lots of advice to make the learning curve smoother. Through this course, students will be provided with guidance and frequent check-ins with the teacher to make sure they’re getting the most out of the curriculum. Should the students wish to further pursue programming after the end of the course, the teacher can get them in contact with more experienced mentors that can continue to guide them in this hobby or future career.<br>It is important to note that the purpose of this course is not to turn every student into an aspiring professional programmer or a future STEM major. It is simply to introduce the students to a potentially helpful skill that they can choose to use in the future to add to their existing interests.Coding at this level is like any skill such as writing, drawing, or running. You can have any of those skills as hobbies, but writing for fun every now and then does not mean you have to become a professional author someday. There are varying levels of commitment and detail to any hobby or skill. Hopefully this course will help you acquire a basic level of skill in programming that you can further build upon in the future if you wish.");
+var surveylink=('Here is the link to the survey.<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfL1vl-f_5VXkCFyn_-NkT9-stBht9g8LgJ2T2MYHvBMrYh7g/viewform?usp=sf_link"><button class="buttonlink">Survey</button></a>')
 $(function(){
   $('.lessoncontent').html(welcometext)
-  $('#previous').on('click',function(){
+  $('#nextbutton').on('click',function(){
+$('.lessoncontent').html(surveylink)
 
+});
+$('#previousbutton').on('click',function(){
+$('.lessoncontent').html(welcometext)
 
 });
 });
