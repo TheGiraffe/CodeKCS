@@ -15,12 +15,11 @@ h1{
   font-size: 100px;
   margin-top: 0px;
   text-decoration: none;
-color: yellow;
-width: 60%;
+color: #a6f441;
 }
 
 #kcslink{
-  color: yellow;
+  color: #a6f441;
   text-decoration: none;
   cursor: pointer;
 
@@ -42,7 +41,7 @@ margin-top: 8%;
 margin-bottom: 20px;
 }
 .cats {
-  background-color: yellow;
+  background-color: #a6f441;
     border: none;
     border-radius: 5px;
     color: black;
@@ -65,8 +64,8 @@ margin-bottom: 20px;
   transition: 0.5s;
 }
 .cats span:after {
-  content:":)";
-  color: yellow;
+  content:" +";
+  color: #a6f441;
   font-size: 30px;
   font-family: 'ostrich_sansblack';
   position: absolute;
@@ -81,12 +80,15 @@ margin-bottom: 20px;
 }
 .cats:hover span {
   padding-right: 20px;
-  color: yellow;
+  color: #a6f441;
 }
 
 .cats:hover span:after {
   opacity: 1;
   right: 0;
+}
+.initialcats{
+    width:75%;
 }
 #rickroll{
 bottom: 0;
@@ -99,6 +101,6 @@ font-family: 'ostrich_sansblack';
 cursor: pointer;
 }
 #rickroll:hover{
-color: yellow;
+color: #a6f441;
 cursor: pointer;
 }
