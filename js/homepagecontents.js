@@ -8,7 +8,7 @@ $(function (){
       $('#homepageoptions1').show();
       $('#parallax2').show();
       $('#whattolearn').html('code');
-      document.getElementById("homepageoptions1").scrollIntoView({behavior:"smooth"});
+      document.getElementById("homepageoptions1").scrollIntoView({behavior:"smooth", block:"start"});
 });
 $('#learnComputers').on('click',function(){
     document.getElementById("parallax2").scrollIntoView({behavior:"smooth", block:"end"});
