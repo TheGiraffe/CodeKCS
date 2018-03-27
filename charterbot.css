@@ -1,6 +1,7 @@
 @import url(fonts/airstream/stylesheet.css);
 @import url(fonts/ostrichsans/stylesheet.css);
 @import url(fonts/printclearly/stylesheet.css);
+@import url(fonts/icons/foundation-icons.css);
 body{
   background-image: url("images/background.png");
   background-repeat: no-repeat;
@@ -94,17 +95,12 @@ font-weight: 200;
 .initialcats{
     width:75%;
 }
-#rickroll{
-bottom: 0;
-margin: 10px;
-position: fixed;
-  font-size: 14px;
-  text-decoration: none;
-  color: white;
-font-family: 'ostrich_sansblack';
-cursor: pointer;
+.socialIcon{
+  color: #a6f441;
+  font-size:25px;
+  margin-right:12px;
+  float: left;
 }
-#rickroll:hover{
-color: #a6f441;
-cursor: pointer;
+.socialIcon:hover{
+color:#25223d;
 }

@@ -1,5 +1,6 @@
 //The hidden navbar, to navigate between lessons
 $(function (){
+    document.getElementById("socialHeader").scrollIntoView({block:"end"});
   $('#homepageoptions1').hide();
   $('#homepageoptions2').hide();
   $('#parallax2').hide();
