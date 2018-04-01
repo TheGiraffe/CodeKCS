@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <meta charset="utf-8">
   <title>Puzzle 01 | KCS Code Club</title>
 </head>
 <body>
-<h1>What is the answer?</h1>
+<h1>Puzzle 01: What is the answer?</h1>
 <br>
 <input type="text" id="answer">
 <p id="response"></p>
 
 <button onclick="checkAnswer()">Check Answer</button>
+<button onclick="showHint()">Hint?</button>
+<p id="hintBox"></p>
 
 <script>
 function checkAnswer() {
@@ -21,8 +24,13 @@ function checkAnswer() {
       document.getElementById("response").innerHTML = correct;
     }else{
       document.getElementById("response").innerHTML = wrong;
+      console.log("You can also find the answer by inspecting the webpage or looking at the source! Which is probably why you're here, looking at the console. :)");
     }
-
+}
+function showHint(){
+  var hint='Hint: Binary. Use a binary + ASCII table.';
+  document.getElementById("hintBox").innerHTML = hint;
+  console.log("You can also find the answer by inspecting the webpage or looking at the source! Which is probably why you're here, looking at the console. :)");
 }
 </script>
 
