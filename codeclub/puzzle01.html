@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Puzzle 01 | KCS Code Club</title>
+</head>
+<body>
+<h1>What is the answer?</h1>
+<br>
+<input type="text" id="answer">
+<p id="response"></p>
+
+<button onclick="checkAnswer()">Check Answer</button>
+
+<script>
+function checkAnswer() {
+    var x = document.getElementById("answer").value;
+    var correctAnswer = '#CODEKCS';
+    var correct='correct!';
+    var wrong='sorry, try again';
+    if(x == correctAnswer){
+      document.getElementById("response").innerHTML = correct;
+    }else{
+      document.getElementById("response").innerHTML = wrong;
+    }
+
+}
+</script>
+
+</body>
+</html>
