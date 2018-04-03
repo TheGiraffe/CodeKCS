@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+  <title>Choose Your Own Adventure Demo</title>
+  <style>
+  #options{
+    display: none;
+  }
+  #letsgo{
+    display: none;
+  }
+  #nameInput{
+    display: block;
+  }
+  #submit{
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <h1>Choose Your Own Adventure Game</h1>
+  <h2 id="prompt">What, dear wanderer, is your name?</h2>
+  <input type="text" id="nameInput">
+  <button onclick="submitName()" id="submit">Submit</button>
+  <p id="options">
+  <button onClick="optionOne()" id="option1"></button>
+  <br>
+  <button onClick="optionTwo()" id="option2"></button>
+  <br>
+  <button onClick="optionThree()" id="option3"></button>
+  <br>
+  <input type="text" id="answerInput">
+  <button onclick="submitAnswer()" id="submitanswer">Submit</button>
+  </p>
+  <p id="response"></p>
+  <br>
+  <button onClick="letsGo()" id="letsgo">Let's Go!</button>
+
+  <script>
+  var option;
+  var ques1Op1="I totally approach the whale. And ask to take a selfie with it.";
+  var ques1Op2="I approach the whale cautiously, because one must exercise caution around aquatic mammals";
+  var ques1Op3="I don't approach the whale. I'm deathly scared of whales.";
+  function optionOne(){
+document.getElementById("answerInput").value = ques1Op1;
+  }
+  function optionTwo(){
+document.getElementById("answerInput").value = ques1Op2;
+  }
+  function optionThree(){
+document.getElementById("answerInput").value = ques1Op3;
+  }
+  function submitName(){
+  name=document.getElementById("nameInput").value;
+  document.getElementById("response").innerHTML='Hello, '+name+'. We are going on one heck of a quest.';
+  document.getElementById("letsgo").style.display="block";
+  }
+  function letsGo(){
+    document.getElementById("options").style.display="block";
+    document.getElementById("letsgo").style.display="none";
+    document.getElementById("response").innerHTML='';
+    document.getElementById("nameInput").style.display="none";
+    document.getElementById("submit").style.display="none";
+document.getElementById("answerInput").value = "answer";
+    document.getElementById("prompt").innerHTML="You're walking through the woods one day when a whale flies out of the sky and lands gracefully a few yards away from you. Do you approach the whale?";
+    document.getElementById("option1").innerHTML=ques1Op1;
+    document.getElementById("option2").innerHTML=ques1Op2;
+    document.getElementById("option3").innerHTML=ques1Op3;
+  }
+function submitAnswer(){
+  answer=document.getElementById("answerInput").value;
+  if (answer == ques1Op1){
+    document.getElementById("prompt").innerHTML="That's what it took to work?";
+  }
+}
+  </script>
+</body>
+</html>
