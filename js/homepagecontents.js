@@ -42,7 +42,7 @@ $('#inquire').on('click',function(){
     $('#learnCodeKCS').on('click',function(){
         document.getElementById("parallax2").scrollIntoView({behavior:"smooth", block:"end"});
         $('#learnAbout').show().html('The CodeKCS Project');
-        $('#learnAboutContent').show().html('Coming soon! Note: Link to project proposal or something?');
+        $('#learnAboutContent').show().html('Learn about the project and all the cool stuff we did for a semester!');
     });
     $('#learnCurriculum').on('click',function(){
         document.getElementById("parallax2").scrollIntoView({behavior:"smooth", block:"end"});
