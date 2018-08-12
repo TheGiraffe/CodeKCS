@@ -60,6 +60,22 @@
      #backHome:hover{
      color:#7fead3;
      }
+     #img1{
+     transform: rotateZ(-15deg);
+     z-index:-1;
+     position:absolute;
+     left:5%;
+     top:10%;
+     border: solid white 0.5em;
+     }
+     #img2{
+     transform: rotateZ(15deg);
+     z-index:-1;
+     position:absolute;
+     right:5%;
+     bottom:10%;
+     border: solid white 0.5em;
+     }
     </style>
 </head>
 <body>
@@ -71,8 +87,8 @@
          <a class="button" href="issue01/index.html">Read the Zine</a>
          <p><a id="backHome" href="http://codekcs.me/">Back Home</a></p>
         </div>
-
-
     </center>
+    <img id ="img1" src="img/1.jpg" width="25%">
+    <img id ="img2" src="img/2.jpg" width="25%">
 </body>
 </html>
