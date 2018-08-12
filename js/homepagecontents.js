@@ -12,22 +12,22 @@ $(function (){
       $('#homepageoptions1').show();
       $('#parallax2').show();
       $('#whattolearn').html('code');
-      $('#knowaboutoptions').html('<a title="Why Code?"><button class="cats" id="learnWhyCode"><span>Why learn to code</span></button></a><a title="Computers"><button class="cats" id="learnComputers"><span>How computers use it</span></button></a><a title="Projects"><button class="cats" id="learnProjects"><span>How to make things</span></button></a>');
+      $('#knowaboutoptions').html('<a title="Why Code?"><button class="cats" id="learnWhyCode"><span>Why learn to code</span></button></a><a title="Computers"><button class="cats" id="learnComputers"><span>Cool Code Resources</span></button></a><a title="Projects"><button class="cats" id="learnProjects"><span>How to make things</span></button></a>');
       document.getElementById("homepageoptions1").scrollIntoView({behavior:"smooth", block:"start"});
       $('#learnComputers').on('click',function(){
           document.getElementById("parallax2").scrollIntoView({behavior:"smooth", block:"end"});
-          $('#learnAbout').show().html('How Do Computers Use Code?');
-          $('#learnAboutContent').show().html('<iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+          $('#learnAbout').show().html('Code and Computer Science Resources');
+          $('#learnAboutContent').show().html('<p>How Computers Work Youtube Series:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><a title="A code education platform created by Google with the intent of getting more girls into code and computer science. Has quite a few interesting projects that all use the block-based language Blockly. While the target audience is preteen girls, there are lots of cool activities on this site for males and females of any age." href="https://www.madewithcode.com/"><button class="cats" ><span>Made W/ Code</span></button></a><a title="Code your own music with Sonic Pi!" href="https://sonic-pi.net/"><button class="cats" ><span>Sonic Pi</span></button></a><a title="A cool online code editor, great for people learning how to code" href="https://thimble.mozilla.org/en-US/"><button class="cats" ><span>Mozilla Thimble</span></button></a><a title="Lots of cool HTML/CSS/JS projects for inspiration. Almost like a social network for sharing and borrowing neat code. href="https://codepen.io/"><button class="cats" ><span>CodePen</span></button></a><a title="Take Intro to Computer Science from Harvard through EdX" href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/"><button class="cats" ><span>CS50 Course</span></button></a>');
       });
       $('#learnWhyCode').on('click',function(){
           document.getElementById("parallax2").scrollIntoView({behavior:"smooth", block:"end"});
           $('#learnAbout').show().html('Why Should I Learn How To Code?');
-          $('#learnAboutContent').show().html('<iframe width="560" height="315" src="https://www.youtube.com/embed/aFF8PYDU0D8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+          $('#learnAboutContent').show().html('<iframe width="560" height="315" src="https://www.youtube.com/embed/aFF8PYDU0D8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><b>A Few Reasons To Learn How To Code:</b><br>Create an awesome portfolio<br>Troubleshoot software issues<br>Make music with code<br>Digital storytelling & game design<br>Entreprenuership - put your ideas into action!');
       });
       $('#learnProjects').on('click',function(){
           document.getElementById("parallax2").scrollIntoView({behavior:"smooth", block:"end"});
           $('#learnAbout').show().html('Make Things With Code');
-          $('#learnAboutContent').show().html('Lots of Fun Projects Coming Soon!');
+          $('#learnAboutContent').show().html('<a href="https://scratch.mit.edu/studios/4791865/"><button class="cats" ><span>Class Scratch Projects Studio</span></button></a><br><a href="https://github.com/CodeKiheiCharter"><button class="cats" ><span>Github Group</span></button></a><p>Fun projects coming soon!</p>');
 
       });
 });
