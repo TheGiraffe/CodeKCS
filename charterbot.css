@@ -110,12 +110,18 @@ color:#25223d;
 @media screen and (max-width: 600px) {
   .h1{
     font-size: 75px;
+    padding-bottom: 2 px;
   }
   .cats {
     font-size: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: blue;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    top: 10%;
+    bottom: 20%;
+  }
+  .cats span:after {
+  font-size: 20px;
   }
   .initialcats{
     width: 100%;
