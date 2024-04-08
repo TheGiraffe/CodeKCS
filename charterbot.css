@@ -119,6 +119,7 @@ color:#25223d;
     position: relative;
     top: 10%;
     bottom: 20%;
+    padding-top: 5px;
   }
   .cats span:after {
   font-size: 20px;
