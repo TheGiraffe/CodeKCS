@@ -108,6 +108,9 @@ color:#25223d;
 }
 
 @media screen and (max-width: 600px) {
+  body{
+    font-size: 15px;
+  }
   .h1{
     font-size: 75px;
     padding-bottom: 2 px;
