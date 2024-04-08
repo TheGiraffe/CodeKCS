@@ -119,15 +119,18 @@ color:#25223d;
     font-size: 20px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 2px;
     position: relative;
     top: 0%;
     bottom: 0%;
-    padding-top: 5px;
   }
   .cats span:after {
   font-size: 20px;
   }
   .initialcats{
+    width: 100%;
+  }
+  .container{
     width: 100%;
   }
 }
