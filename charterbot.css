@@ -4,8 +4,11 @@
 @import url(fonts/icons/foundation-icons.css);
 
 @media only screen and (max-width: 600px) {
+  .h1{
+    font-size: 75px;
+  }
   .cats {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
