@@ -17,8 +17,8 @@ h1{
   font-size: 100px;
   margin-top: 0px;
   text-decoration: none;
-color: #a6f441;
-    margin-bottom:5%;
+  color: #a6f441;
+  margin-bottom:5%;
 }
 
 #kcslink{
@@ -114,6 +114,7 @@ color:#25223d;
   .h1{
     font-size: 60px;
     padding-bottom: 5px;
+    margin-bottom: 10px;
   }
   .cats {
     font-size: 20px;
